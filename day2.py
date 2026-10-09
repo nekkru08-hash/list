@@ -1234,36 +1234,51 @@
 
 # 31. Музыка
 # songs = ["Song A", "Song B", "Song C", "Song A"]
-# Посчитай количество "Song A".
-# Найди индекс "Song C".
-# Добавь "Song D".
-# Вставь "Song E" на индекс 1.
-# Удали одну "Song A".
+# songs.count("Song A")
+# songs.index("Song C")
+# songs.append("Song D")
+# songs.insert(1,"Song E")
+# songs.remove("Song A")
+# print(songs)
+
+
 # 32. Очередь заказов
 # orders = [101, 102, 103, 104]
-# Удали первый заказ через pop().
-# Добавь заказ 105.
-# Добавь заказы 106 и 107.
-# Вставь заказ 100 в начало.
-# Отсортируй список.
+# orders.pop(0)
+# orders.append(105)
+# orders.extend([106,107])
+# orders.insert(0,100)
+# orders.sort()
+# print(orders)
+
+
 # 33. Рейтинг
 # rating = [5, 4, 3, 5, 2, 5, 4]
-# Посчитай количество 5.
-# Найди индекс 2.
-# Добавь 1.
-# Удали одну оценку 3.
-# Отсортируй список по убыванию.
+# rating.count(5)
+# rating.index(2)
+# rating.append(1)
+# rating.remove(3)
+# rating.sort()
+# rating.reverse()
+# print(rating)
+
+
 # 34. Инвентарь
-# inventory = ["laptop", "phone", "tablet"]
-# Добавь "monitor".
-# Добавь "mouse" и "keyboard".
-# Вставь "printer" на индекс 2.
-# Удали "tablet".
-# Удали последний элемент через pop().
+# inven = ["laptop", "phone", "tablet"]
+# inven.append("monitor")
+# inven.extend(["mouse","keyboard"])
+# inven.insert(2,"printer")
+# inven.remove("tablet")
+# inven.pop(-1)
+# print(inven)
+
+
 # 35. Полная очистка
-# data = [10, 20, 30, 40, 50]
-# Создай копию через copy().
-# Добавь 60 в копию.
-# Удали 30 из копии.
-# Разверни копию.
-# Полностью очисти оригинальный список через clear().
+data = [10, 20, 30, 40, 50]
+data_copy = data.copy()
+data_copy.append(60)
+data_copy.remove(30)
+data_copy.reverse()
+data.clear()
+print(data_copy)
+

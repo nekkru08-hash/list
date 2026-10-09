@@ -1164,54 +1164,74 @@
 
 
 # 24. Номера
-# numbers = [5, 10, 15, 10, 20, 10]
-# Посчитай количество 10.
-# Найди индекс первого 20.
-# Добавь 25.
-# Удали одно число 10.
-# Отсортируй список по убыванию.
+# num = [5, 10, 15, 10, 20, 10]
+# num.count(10)
+# num.index(20)
+# num.append(25)
+# num.remove(10)
+# num.sort()
+# print(num)
+
+
 # 25. Игроки
-# players = ["Messi", "Ronaldo", "Neymar", "Mbappe"]
-# Добавь "Haaland".
-# Вставь "Salah" на индекс 2.
-# Удали "Neymar".
-# Найди индекс "Ronaldo".
-# Разверни список.
+# pla = ["Messi", "Ronaldo", "Neymar", "Mbappe"]
+# pla.append("Halland") 
+# pla.insert(2,"Salah")
+# pla.remove("Neymar")
+# pla.index("Ronaldo")
+# pla.reverse()
+# print(pla)
+
+
 # 26. Задачи Todo
-# tasks = ["study", "work", "sleep"]
-# Добавь "exercise".
-# Добавь "read" и "code".
-# Вставь "eat" на индекс 1.
-# Удали "sleep".
-# Отсортируй список.
+# tas = ["study", "work", "sleep"]
+# tas.append("exersize")
+# tas.append(["read","code"])
+# tas.insert(1,"eat")
+# tas.remove("Sleep")
+# tas.sort()
+# print(tas)
+
+
 # 27. Температура
-# temperatures = [25, 30, 28, 25, 32, 25]
-# Посчитай количество 25.
-# Найди индекс 32.
-# Добавь 35.
-# Удали одну 28.
-# Отсортируй список по возрастанию.
+# tem = [25, 30, 28, 25, 32, 25]
+# tem.count(25)
+# tem.index(25)
+# tem.append(35)
+# tem.remove(28)
+# tem.sort()
+# print(tem)
+
+
 # 28. Города
-# cities = ["Dushanbe", "Khujand", "Bokhtar"]
-# Добавь "Kulob".
-# Добавь "Tursunzoda" и "Istaravshan".
-# Вставь "Hisor" на индекс 1.
-# Удали "Bokhtar".
-# Разверни список.
+# citi = ["Dushanbe", "Khujand", "Bokhtar"]
+# citi.append("Kulob")
+# citi.extend(["tursunzoda","Istaravshan"])
+# citi.insert(1,"Hisor")
+# citi.remove("Bokhtar")
+# citi.reverse()
+# print(citi)
+
+
 # 29. Работники
-# employees = ["Ali", "Said", "John", "Karim"]
-# Добавь "Rustam".
-# Вставь "Muhammad" на индекс 2.
-# Найди индекс "John".
-# Удали "Said".
-# Создай копию списка через copy().
+# emp = ["Ali", "Said", "John", "Karim"]
+# emp.append("Rustam")
+# emp.insert(2,"Muhammad")
+# emp.index("John")
+# emp.remove("Said")
+# emp_copy = emp.copy()
+# print(emp)
+
+
 # 30. Числа и копия
 # numbers = [9, 3, 7, 3, 5, 3]
-# Создай копию списка.
-# Посчитай количество 3 в оригинале.
-# Добавь 10 в копию.
-# Удали одну 3 из копии.
-# Отсортируй копию.
+# num_copy = numbers.copy()
+# numbers.count(3)
+# num_copy.append(10)
+# num_copy.remove(3)
+# num_copy.sort()
+# print(num_copy)
+
 # 31. Музыка
 # songs = ["Song A", "Song B", "Song C", "Song A"]
 # Посчитай количество "Song A".

@@ -1078,12 +1078,172 @@
 # lst.insert()
 
 
-lst = ["Ali", "John", "Muhammad", "Said"]
-lst2=["Ali", "John", "Muhammad", "Said"]
-lst.append("butter")
-lst.extend("juse","water")
-lst.insert()
-print(lst)
 
 
 
+# 16. Список покупок
+# lst = ["bread", "milk", "eggs", "cheese"]
+# lst.append("butter")
+# lst2 = []
+# lst2.extend("juice")
+# lst2.extend("water")
+# lst.insert(1,"meat")
+# lst.remove("eggs")
+# lst.sort()
+# print(lst)
+
+
+
+# 17. Баллы студентов
+# sco = [85, 70, 95, 60, 85, 75]
+# sco.count(85)
+# sco.index(95)
+# sco.append(100)
+# sco.remove(60)
+# sco.sort()
+# print(sco)
+
+
+# 18. Имена студентов
+# stu = ["Ali", "John", "Said", "Ali", "Karim"]
+# stu.count("Ali")
+# stu.index("Said")
+# stu.append("Muhammad")
+# stu.insert(2,"Rustam")
+# stu.remove("Ali")
+
+
+# 19. Очередь клиентов
+# lst = ["Client1", "Client2", "Client3", "Client4"]
+# lst.pop(0)
+# lst.append("client5")
+# lst2 = ["client6","client7"]
+# lst.extend(lst2)
+# lst.insert(0,"Vip")
+# lst.remove("Client3")
+# print(lst)
+
+
+# 20. Цены товаров
+# pri = [120, 450, 300, 150, 450, 200]
+# pri.count(450)
+# pri.index(300)
+# pri.append(500)
+# pri.remove(120)
+# pri.sort()
+
+
+# 21. Языки программирования
+# lst = ["Python", "C++", "Java"]
+# lst.append("Go")
+# lst.extend(["rust","Java"])
+# lst.insert(1,"c")
+# lst.remove("Java")
+# lst.reverse()
+# print(lst)
+
+
+# 22. Копия списка
+# num = [10, 20, 30, 40, 50]
+# copy = num.copy()
+# copy.append(60)
+# copy.remove(20)
+# copy.sort()
+# print("Ориг:",num)
+# print("Коп:",copy)
+# print("ravni:",num == copy)
+
+# 23. Корзина интернет-магазина
+# cart = ["phone", "mouse", "keyboard"]
+# cart.append("monitor")
+# cart.extend(["headphones","webcam"])
+# cart.insert(0,"laptop")
+# cart.remove("mouse")
+# cart.pop(-1)
+# print(cart)
+
+
+# 24. Номера
+# numbers = [5, 10, 15, 10, 20, 10]
+# Посчитай количество 10.
+# Найди индекс первого 20.
+# Добавь 25.
+# Удали одно число 10.
+# Отсортируй список по убыванию.
+# 25. Игроки
+# players = ["Messi", "Ronaldo", "Neymar", "Mbappe"]
+# Добавь "Haaland".
+# Вставь "Salah" на индекс 2.
+# Удали "Neymar".
+# Найди индекс "Ronaldo".
+# Разверни список.
+# 26. Задачи Todo
+# tasks = ["study", "work", "sleep"]
+# Добавь "exercise".
+# Добавь "read" и "code".
+# Вставь "eat" на индекс 1.
+# Удали "sleep".
+# Отсортируй список.
+# 27. Температура
+# temperatures = [25, 30, 28, 25, 32, 25]
+# Посчитай количество 25.
+# Найди индекс 32.
+# Добавь 35.
+# Удали одну 28.
+# Отсортируй список по возрастанию.
+# 28. Города
+# cities = ["Dushanbe", "Khujand", "Bokhtar"]
+# Добавь "Kulob".
+# Добавь "Tursunzoda" и "Istaravshan".
+# Вставь "Hisor" на индекс 1.
+# Удали "Bokhtar".
+# Разверни список.
+# 29. Работники
+# employees = ["Ali", "Said", "John", "Karim"]
+# Добавь "Rustam".
+# Вставь "Muhammad" на индекс 2.
+# Найди индекс "John".
+# Удали "Said".
+# Создай копию списка через copy().
+# 30. Числа и копия
+# numbers = [9, 3, 7, 3, 5, 3]
+# Создай копию списка.
+# Посчитай количество 3 в оригинале.
+# Добавь 10 в копию.
+# Удали одну 3 из копии.
+# Отсортируй копию.
+# 31. Музыка
+# songs = ["Song A", "Song B", "Song C", "Song A"]
+# Посчитай количество "Song A".
+# Найди индекс "Song C".
+# Добавь "Song D".
+# Вставь "Song E" на индекс 1.
+# Удали одну "Song A".
+# 32. Очередь заказов
+# orders = [101, 102, 103, 104]
+# Удали первый заказ через pop().
+# Добавь заказ 105.
+# Добавь заказы 106 и 107.
+# Вставь заказ 100 в начало.
+# Отсортируй список.
+# 33. Рейтинг
+# rating = [5, 4, 3, 5, 2, 5, 4]
+# Посчитай количество 5.
+# Найди индекс 2.
+# Добавь 1.
+# Удали одну оценку 3.
+# Отсортируй список по убыванию.
+# 34. Инвентарь
+# inventory = ["laptop", "phone", "tablet"]
+# Добавь "monitor".
+# Добавь "mouse" и "keyboard".
+# Вставь "printer" на индекс 2.
+# Удали "tablet".
+# Удали последний элемент через pop().
+# 35. Полная очистка
+# data = [10, 20, 30, 40, 50]
+# Создай копию через copy().
+# Добавь 60 в копию.
+# Удали 30 из копии.
+# Разверни копию.
+# Полностью очисти оригинальный список через clear().

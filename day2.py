@@ -1078,4 +1078,12 @@
 # lst.insert()
 
 
+lst = ["Ali", "John", "Muhammad", "Said"]
+lst2=["Ali", "John", "Muhammad", "Said"]
+lst.append("butter")
+lst.extend("juse","water")
+lst.insert()
+print(lst)
+
+
 

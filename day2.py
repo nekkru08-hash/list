@@ -980,6 +980,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+                                # Mavzui Listt
+
 # append', 'clear', 'copy', 'count',
 # 'extend', 'index', 'insert', 'pop',
 # 'remove', 'reverse', 'sort'
@@ -1274,11 +1293,11 @@
 
 
 # 35. Полная очистка
-data = [10, 20, 30, 40, 50]
-data_copy = data.copy()
-data_copy.append(60)
-data_copy.remove(30)
-data_copy.reverse()
-data.clear()
-print(data_copy)
+# data = [10, 20, 30, 40, 50]
+# data_copy = data.copy()
+# data_copy.append(60)
+# data_copy.remove(30)
+# data_copy.reverse()
+# data.clear()
+# print(data_copy)
 

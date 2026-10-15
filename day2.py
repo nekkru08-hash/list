@@ -2179,7 +2179,6 @@
 
 
 
-
 # # 47
 # needed = {"milk", "bread", "eggs", "tea"}
 # at_home = {"bread", "tea", "sugar"}
@@ -2218,3 +2217,255 @@
 # print("Only text1:", words1.difference(words2))
 # print("Only text2:", words2.difference(words1))
 # print("Unique words:", len(words1.union(words2)))
+
+
+# --------------------------------------------------------------------Day 2--------------------------------------------------------------
+# def func(a,b):
+#     return a+b
+# print(func(1,3))
+
+
+# def func(a,b):
+#     print(a+b)
+# func(1,3)
+
+
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n*factorial(n-1
+#                 )
+# print(factorial(5))
+
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n+factorial(n-1)
+# print(factorial(9999))
+
+
+# def factorial(n):
+#     if n == 0:
+#         return 1 
+#     print(n)
+#     return factorial(n-1)
+# factorial(6)
+
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n**2+factorial(n-1)
+# print(factorial(3))
+
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n**3+factorial(n-1)
+# print(factorial(3))
+
+
+# name,age,city = input().split()
+# stud={
+#     "Name": name,
+#     "Age": int(age),
+#     "City": city
+# }
+# print("Name:", stud["Name"], "Age:", stud["Age"], "City:", stud["City"])
+
+
+# prod = {"n":10,"n":10,"n":20,"n":13}
+# print(sum(prod.values()))
+
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n*factorial(n-1
+#                 )
+# print(factorial(5))
+
+
+
+# word = input().split()
+# res = {}
+# for i in word:
+#     res[i] = res.get(i,0)+1  
+# print(res)
+
+
+
+# pro = {'phone': 3500, 'laptop': 1200, 'tablet': 700}
+# name = max(pro,key=pro.get)
+# print(name,pro[name])
+
+
+# dict = {'a': 1, 'b': 2}
+# dict2 = {'b': 5, 'c': 3}
+# dict.update(dict2)
+# print(dict)
+
+
+# st = {'Ali': 90, 'Sara': 75, 'Omar': 85, 'Zara': 60}
+# for k,v in st.items():
+#     if v>=80:
+#         print(v)
+
+
+# res = {'Ali': 1,'Sara':2,'Omar': 3}
+# res2 = {}
+# for k,v in res.items():
+#     res2[v] = k
+# print(res2)
+
+
+# s = input()
+# print(len(s.replace(" ","")))
+
+
+# s = input()
+# print(s.upper())
+# print(s.lower())
+
+
+# s = input()
+# print(s.strip())
+
+
+
+# s = "Bad"
+# s.replace("Bad","Good")
+# print(s)
+
+
+
+# s = input()
+# print(s.split(",")) 
+
+
+# res = ['Python', 'is', 'easy']
+# print(" - ".join(res))
+
+
+
+# res = input()
+# print(res.isdigit())
+
+
+
+# res = input()
+# print(res.title())  
+
+
+# def greet(name):
+#     if name == "":
+#         return
+#     print("hello"+name)
+# print(greet("ali"))
+
+
+
+# def number(n):
+#     if n==0:
+#         return "Even"
+#     if n == 1 or n == -1:
+#         return "Odd"
+#     if n > 0:
+#         return number(n - 2)
+#     return number(n + 2)
+# print(number(int(input())))
+
+
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+
+
+# def sum_numbers(n):
+#     if n <= 0:
+#         return 0
+#     return n + sum_numbers(n - 1)
+# print(sum_numbers(int(input())))
+
+
+# def count_digits(n):
+#     if n <10:
+#         return 1
+#     return 1+count_digits(n//10)
+# print(count_digits(abs(int(input))))
+
+
+# def summa(n):
+#     if n == 0:
+#         return 0
+#     return n%10+summa(n // 10)
+# print(summa(abs(int(input()))))
+
+
+# def res(n):
+#     if n =="":
+#         return ""
+#     return res(n[1:])+n[0]
+# print(res(input()))
+
+
+
+
+# def func(n):
+#     if n == 0:
+#         return 0
+#     if (n%2==0)!=(n%3==0):
+#         return n+func(n-1)
+#     return func(n-1)
+# print(func(57))
+
+
+# def func(n,a=1):
+#     if a == n:
+#         return n
+#     print(a)
+#     return func(n,a+1)
+# print(func(5))
+
+
+# def func(n):
+#     if n==1:
+#         return n
+#     print(n)
+#     return func(n-1)
+# print(func(6))
+
+
+# def func(a,b):
+#     if a==b:
+#         return a
+#     print(a)
+#     return func(a+1,b)
+# print(func(3,7))
+
+
+# def func(n):
+#     if n==1:
+#         return 1
+#     return n+func(n-1)
+# print(func(5))
+
+
+# def func(n):
+#     if n==1:
+#         return 1
+#     return n*func(n-1)
+# print(func(5))
+
+
+# def func(n):
+#     if n==1:
+#         return 1
+#     return sum(func(n-1))
+# print(func(455))

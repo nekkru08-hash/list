@@ -3451,3 +3451,106 @@
 # c2 = AuthorRepository()
 # c2.delete("asdfghjk")
 
+
+# -------------------------------------------------------
+# # file = open('file.txt','r')
+# # print(file.readlines())
+
+
+# # file = open('file.txt','a')
+# # file.write("dshuhd")
+
+
+# # file = open('file.txt', 'a')
+# # file.write("\n voalek salom")
+# # file.flush()  
+
+# import os
+# from collections import Counter
+
+
+
+
+
+
+# 1
+# lines = [
+#     "Hello World \n",
+#     "Python \n",
+#     "work \n",
+#     "money \n",
+#     "five \n"
+# ]
+# with open('text.txt', 'w') as file: ----prosta navistan no da har yak stroka
+#     file.writelines(lines)
+
+
+# 2
+# with open('text.txt', 'r') as file:
+#     content = file.read() 
+# print(content)   prosta xondsan
+
+
+
+# 3
+# with open('text.txt', 'r') as file:
+#     lines_list = file.readlines()   ---- baroi hisob kardani chand stroka kod hast
+# print(f"len({lines_list})")
+
+
+
+# 4
+# with open('text.txt', 'r') as file:
+#     file_content = file.read()
+# words_list = file_content.split() 
+# print(f"{len(words_list)}")
+
+
+# 5
+# with open('text.txt', 'r') as file:
+#     harf_content = file.read()
+# cnt = 0
+# for harf in harf_content:
+#     if harf != " " and harf != "\n":
+#         cnt += 1
+# print(f"obwiy harf {cnt}\n")
+
+
+
+# 6
+# word1 = input("Enter your ").lower()
+# with open('text.txt', 'r') as file:
+#     words2 = file.read().lower()
+# # -------------------------------
+
+
+
+# 7
+# with open('source.txt', 'w') as f:
+#     f.write("All words to copy---------sourse")
+# with open('source.txt', 'r') as source_file:
+#     copy = source_file.read()
+# with open('copy.txt', 'w') as copy_file:
+#     copy_file.write(copy)
+# print("All copy words  ")
+
+
+
+# 8
+# new_sentence = input("Enter your word to append: ")
+# with open('text.txt', 'a') as file:
+#     file.write(new_sentence)
+
+
+
+# 9
+# with open('text.txt', 'r') as file:
+#     all_lines = file.readlines()
+# longest_line = ""
+# for line in all_lines:
+#     clean_line = line.strip()  --------------nuzhno am=naliz
+#     if len(clean_line) > len(longest_line):
+#         longest_line = clean_line
+# print(f"{longest_line}")  
+# print(f"{len(longest_line)}\n")
+
